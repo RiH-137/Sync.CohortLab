@@ -4,7 +4,8 @@ import Image from 'next/image'
 import { Button } from '@/components/ui/button'
 import { LayoutDashboard, Shield, UserCircle } from 'lucide-react'
 import { usePathname } from 'next/navigation'
-
+import { Progress } from '@/components/ui/progress'
+import Link from 'next/link';
 
 function SideBar() {
     const MenuList=[
@@ -57,7 +58,15 @@ function SideBar() {
                     </div>
                 ))}
             </div>
-            
+
+
+            {/* credit bar */}
+            <div className='border p-3 bg-slate-100 rounded-lg mt-10 absolute bottom-10 w-[85%]'>
+                <h2 className='text-lg mb-2' >Available Credits : 5</h2>
+                <Progress value={30}/>
+                <h2 className='text-sm'> 1 Out of 5 Credits Used</h2>
+                <Link href={'/dashboard/upgrade'} className='text-primary text-xs mt-3'> Upgrade to create more </Link>
+            </div>
 
         </div>
         
