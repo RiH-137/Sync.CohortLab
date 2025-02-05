@@ -1,6 +1,7 @@
 1. npx create-next-app@latest
 2. npm i                        // after changing anything in the package, run to update the whole.
 3. npm run dev
+    npm i axios
 4. (follow the process to install shadcn)
 5. 'lib' folder and 'components.json' folder contains the information about the shadcn.
 6. Shadcn components including Button etc are stored in 'Components' folder.
@@ -22,4 +23,12 @@ Backend Setup
 Authentication
 
 1. folow the steps for clerk Authentication
-2. 
+
+
+
+-----------------------------------------------------------------------------------------
+Inngest
+
+root/inngest/*(here me make all the function) --> 
+root/app/api/ingest(here we call all the developed inngest function)
+
