@@ -1,0 +1,25 @@
+1. npx create-next-app@latest
+2. npm i                        // after changing anything in the package, run to update the whole.
+3. npm run dev
+4. (follow the process to install shadcn)
+5. 'lib' folder and 'components.json' folder contains the information about the shadcn.
+6. Shadcn components including Button etc are stored in 'Components' folder.
+
+------------------------------------------------------------------------------------------------------
+
+Backend Setup
+
+1. ORM--> object Relational Mapping; we are using drizzle_orm and neom_postgre
+2. (follow process to install drizzle_orm)
+3. pushing all the commands to the database--> npx drizzle-kit push
+4. getting the database locally--> npx drizzle-kit studio
+5. 
+
+
+
+------------------------------------------------------------------------------------------------------
+
+Authentication
+
+1. folow the steps for clerk Authentication
+2. 
